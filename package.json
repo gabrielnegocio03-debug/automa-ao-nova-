@@ -1,0 +1,14 @@
+{
+  "name": "wa-simples",
+  "version": "1.0.0",
+  "main": "server.js",
+  "scripts": { "start": "node server.js" },
+  "engines": { "node": ">=18" },
+  "dependencies": {
+    "@hapi/boom": "^10.0.1",
+    "@whiskeysockets/baileys": "^6.7.14",
+    "express": "^4.18.2",
+    "pino": "^8.17.2",
+    "qrcode": "^1.5.3"
+  }
+}
